@@ -10,7 +10,7 @@ We use a small dataset split as training, validation and testing dataset, contai
 
 Each image is of shape (64, 64, 3) where 3 is for the 3 colour channels, RGB, and we are interested in evaluating how well the model performs in predicting pictures it has never seen before having been trained on such a small dataset.
 
-These datasets are contained in the dataset folder, saved as [`.h5`](https://en.wikipedia.org/wiki/Hierarchical_Data_Format) files, containning multidimensional arrays of the images, and are loaded with the  function `load_data()` with the help of the `data_util.py` python script.
+These datasets are contained in the `dataset` folder, saved as [`.h5`](https://en.wikipedia.org/wiki/Hierarchical_Data_Format) files, containning multidimensional arrays of the images, and are loaded with the  function `load_data()` with the help of the `data_util.py` python script.
 
 
 
