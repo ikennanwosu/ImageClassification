@@ -35,7 +35,7 @@ Before fitting the model to the data, the following had to be defined as part of
 
 
 # Model Evaluation
-The goal of machine learning is to achieve a model that generalizes well on never-before-seen data, and overfitting is the central obstacle. So the model was trained on the training set, and evaluated on the validation data to assess how well the model generalizes. An accuracy of 94% was observed of the model on the training data while the model achieved an accuracy of 93% on the validation.
+The goal of machine learning is to achieve a model that generalizes well on never-before-seen data, and overfitting is the central obstacle. To monitor the model's performance and evaluate if it is overfitting the training data, we hold-out a portion of the training data - called validation data. So the model is trained on the training set, and evaluated on the validation data to assess how well the model generalizes. An accuracy of 94% was observed of the model on the training data while the model achieved an accuracy of 93% on the validation.
 
 After fine tuning and selecting the above hyper-parameters for the individual layers, and achieving the accuracy scores on the training and validation data, the model was fed the testing data. It was interesting to see that the model achieved an outstanding accuracy score of 92%, i.e. out of every 100 new images passed to the model, the model classified 92 of them correctly as "cats" or "non-cats". This is very impressive for a model trained on such a small dataset.
 
