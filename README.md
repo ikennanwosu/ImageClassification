@@ -31,7 +31,7 @@ The first convolutional layer learns to represent simple features in the image l
 Before fitting the model to the data, the following had to be defined as part of a compilation step to get the network ready for training;
 - A gradient-based optimization technique used in training neural networks, such that they update the weights of the network based on the data it sees and the loss function. For this, we chose the [`rmsprop`](https://en.wikipedia.org/wiki/Stochastic_gradient_descent#RMSProp) optimizer.
 - A loss function that computes the cross-entropy between true labels and predicted labels. The model will use this function to measure its performance on the training data, and subsequently how it is able to steer itself in the right direction towards global minimum. For this, we chose [`binary_crossentropy`](https://stackoverflow.com/questions/42081257/why-binary-crossentropy-and-categorical-crossentropy-give-different-performances). 
-- A metrics to calculate how often the predicted labels match the true labels. For this, we chose [`accuracy`](https://www.kdnuggets.com/2016/12/best-metric-measure-accuracy-classification-models.html)
+- A metrics to calculate how often the predicted labels match the true labels. For this, we chose [`accuracy`](https://www.kdnuggets.com/2016/12/best-metric-measure-accuracy-classification-models.html).
 
 
 # Model Evaluation
