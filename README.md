@@ -24,7 +24,7 @@ The network comprises of 4 layers (3 hidden and 1 output) to process spatial pat
  
 The first convolutional layer learns to represent simple features in the image like straight lines and edges, and then the second convolutional layer recombines these simple feaatures into more abstract representations.
 
-- `Third Hidden Layer`: To recombine these abstract representations, we add a [`dense`](https://www.tutorialspoint.com/keras/keras_dense_layer.htm#:~:text=Dense%20layer%20is%20the%20regular,input%2C%20kernel)%20%2B%20bias)) layer, with 16 neurons, that map these spatial abstract features to a particular class of images (extracted features), before feeding these identified features to the output layer.
+- `Third Hidden Layer`: To recombine these abstract representations, we add a [`dense`](https://heartbeat.fritz.ai/classification-with-tensorflow-and-dense-neural-networks-8299327a818a) layer, with 16 neurons, that map these spatial abstract features to a particular class of images (extracted features), before feeding these identified features to the output layer.
 
 - `Output Layer`: This layer is a dense layer with a single neuron, which receives the extracted features, and with a [`sigmoid`](https://en.wikipedia.org/wiki/Sigmoid_function) function, encodes the probability that the network is looking at one class or the other. If the probability is greater or equal to 0.5, we classify the image as a cat, else we classify the image as a non-cat.
 
