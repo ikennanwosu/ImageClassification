@@ -39,4 +39,4 @@ The goal of machine learning is to achieve a model that generalizes well on neve
 
 After fine tuning and selecting the above hyper-parameters for the individual layers, and achieving the accuracy scores on the training and validation data, the model was fed the testing data. It was interesting to see that the model achieved an outstanding accuracy score of 92%, i.e. out of every 100 new images passed to the model, the model classified 92 of them correctly as "cats" or "non-cats". This is very impressive for a model trained on such a small dataset.
 
-To further evaluate the performance of the model, 9 new images were loaded, transformed and passed to the model, and the model correctly classified every one of these images. Remarkable result.
+To further evaluate the performance of the model, 9 new images were loaded, transformed and passed to the model, and the model correctly classified every one of these images. Remarkable result!
