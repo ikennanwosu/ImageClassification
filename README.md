@@ -6,7 +6,7 @@ The purpose of this project is to show you how you can configure, build and trai
 We use a small dataset split as training, validation and testing dataset, containing pixel values of images and the corresponding image labels as cat (1) and non-cat (0). Sizes of individual datasets are as follows;
 - Training set: 169 images and labels respectively
 - Validation set: 40 images and labels respectively
-- Testing set: 169 images and labels respectively
+- Testing set: 50 images and labels respectively
 
 Each image is of shape (64, 64, 3) where 3 is for the 3 colour channels, RGB, and we are interested in evaluating how well the model performs in predicts pictures its never seen by having been trained on such a small dataset.
 
