@@ -8,7 +8,7 @@ We use a small dataset split as training, validation and testing dataset, contai
 - Validation set: 40 images and labels respectively
 - Testing set: 50 images and labels respectively
 
-Each image is of shape (64, 64, 3) where 3 is for the 3 colour channels, RGB, and we are interested in evaluating how well the model performs in predicting pictures its never seen by having been trained on such a small dataset.
+Each image is of shape (64, 64, 3) where 3 is for the 3 colour channels, RGB, and we are interested in evaluating how well the model performs in predicting pictures it has never seen before having been trained on such a small dataset.
 
 These datasets are contained in the dataset folder, saved as [`.h5`](https://en.wikipedia.org/wiki/Hierarchical_Data_Format) files, containning multidimensional arrays of the images, and are loaded with the  function `load_data()` with the help of the `data_util.py` python script.
 
